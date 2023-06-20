@@ -1,0 +1,12 @@
+---
+# tasks file for common
+- name: Atualizar cache do repositório APT
+  apt:
+    update_cache: yes
+  become: true
+
+- name: Instalar pacotes essenciais
+  apt:
+    name: "{{ pacotes }}"
+    state: present
+  become: true

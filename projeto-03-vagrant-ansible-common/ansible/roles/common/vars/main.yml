@@ -1,0 +1,12 @@
+---
+# vars file for common
+pacotes:
+  - build-essential
+  - vim
+  - curl
+  - telnet
+  - unzip
+  - wget
+  - net-tools
+  - htop
+  - nmap
